@@ -56,7 +56,7 @@ public class Attractions extends AppCompatActivity {
 
         // initialize toobar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Seattle Tourist Attractions");
+        toolbar.setTitle(R.string.attractions_title);
 
         // complete initialization of viewPager
         viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -69,10 +69,10 @@ public class Attractions extends AppCompatActivity {
     private void prepareDataResource() {
 
         // This is the same as below with the use of addData()
-        addData(new SpaceNeedle(), "Space Needle");
-        addData(new PikesPlace(), "Pikes Place");
-        addData(new PioneerSquare(), "Pioneer Square");
-        addData(new GasWorksPark(), "Gas Works Park");
+        addData(new SpaceNeedle(), getString(R.string.space_needle));
+        addData(new PikesPlace(), getString(R.string.pikes_place));
+        addData(new PioneerSquare(), getString(R.string.pioneer_square));
+        addData(new GasWorksPark(), getString(R.string.gas_works));
 
 
         // This is the same as above but with no use of addData()

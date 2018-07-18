@@ -56,7 +56,7 @@ public class Restaurants extends AppCompatActivity {
 
         // initialize toobar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Seattle Top Restaurants");
+        toolbar.setTitle(R.string.restaurants_title);
 
         // complete initialization of viewPager
         viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -69,10 +69,10 @@ public class Restaurants extends AppCompatActivity {
     private void prepareDataResource() {
 
         // This is the same as below with the use of addData()
-        addData(new Hitchcock(), "Hitchcock");
-        addData(new FlintcreekCattle(), "Flintcreek Cattle");
-        addData(new CafeMunir(), "Cafe Munir");
-        addData(new UnBien(), "Un Bien");
+        addData(new Hitchcock(), getString(R.string.hitchcock));
+        addData(new FlintcreekCattle(), getString(R.string.flintcreek));
+        addData(new CafeMunir(), getString(R.string.munir));
+        addData(new UnBien(), getString(R.string.un_bien));
 
 
         // This is the same as above but with no use of addData()

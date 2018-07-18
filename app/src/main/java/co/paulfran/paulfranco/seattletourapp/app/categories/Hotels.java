@@ -56,7 +56,7 @@ public class Hotels extends AppCompatActivity {
 
         // initialize toobar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Seattle Top Hotels");
+        toolbar.setTitle(R.string.hotels_title);
 
         // complete initialization of viewPager
         viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -69,10 +69,10 @@ public class Hotels extends AppCompatActivity {
     private void prepareDataResource() {
 
         // This is the same as below with the use of addData()
-        addData(new FairmontOlympicHotel(), "Fairmont Olympic");
-        addData(new FourSeasonsHotel(), "Four Seasons");
-        addData(new InnAtTheMarketHotel(), "Inn At The Market");
-        addData(new ThompsonSeattleHotel(), "Thompson Seattle");
+        addData(new FairmontOlympicHotel(), getString(R.string.fairmont));
+        addData(new FourSeasonsHotel(), getString(R.string.fourseasons));
+        addData(new InnAtTheMarketHotel(), getString(R.string.inn));
+        addData(new ThompsonSeattleHotel(), getString(R.string.thompson));
 
 
         // This is the same as above but with no use of addData()

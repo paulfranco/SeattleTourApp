@@ -56,7 +56,7 @@ public class Shopping extends AppCompatActivity {
 
         // initialize toobar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Seattle Shopping");
+        toolbar.setTitle(R.string.shopping_title);
 
         // complete initialization of viewPager
         viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -69,10 +69,10 @@ public class Shopping extends AppCompatActivity {
     private void prepareDataResource() {
 
         // This is the same as below with the use of addData()
-        addData(new Baleen(), "Baleen");
-        addData(new Digs(), "Digs");
-        addData(new LuckyDryGoods(), "Lucky Dry Goods");
-        addData(new Prism(), "Prism");
+        addData(new Baleen(), getString(R.string.baleen));
+        addData(new Digs(), getString(R.string.digs));
+        addData(new LuckyDryGoods(), getString(R.string.lucky));
+        addData(new Prism(), getString(R.string.prism));
 
 
         // This is the same as above but with no use of addData()
