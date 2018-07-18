@@ -17,6 +17,6 @@ public class GasWorksPark extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.pikes_works_park, container, false);
+        return inflater.inflate(R.layout.gas_works_park, container, false);
     }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Seattle Tour App</string>
+    <string name="pikes_place_text">Pike Place Market is a public market overlooking the Elliott Bay waterfront in Seattle, Washington, United States. The Market opened August 17, 1907, and is one of the oldest continuously operated public farmers\' markets in the United States</string>
+    <string name="space_needle_text">The Space Needle is an observation tower in Seattle, Washington, a landmark of the Pacific Northwest, and an icon of Seattle.</string>
+    <string name="pioneer_square_text">Art galleries, coffee shops and trendy bars fill Pioneer Square’s late-1800s Romanesque Revival buildings. Tourists explore subterranean streets on the guided Underground Tour, and learn about Seattle’s roots at the Klondike Gold Rush National Historical Park. Office workers unwind in secluded Waterfall Garden Park or grab lunch from food trucks at Occidental Square, a plaza with bistro tables and bocce courts.</string>
+    <string name="gasworks_text">Gas Works Park in Seattle, Washington, is a 19.1-acre public park on the site of the former Seattle Gas Light Company gasification plant, located on the north shore of Lake Union at the south end of the Wallingford neighborhood.</string>
 </resources>
