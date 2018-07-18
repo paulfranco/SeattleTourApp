@@ -19,6 +19,7 @@
         <activity android:name=".app.categories.Attractions"/>
         <activity android:name=".app.categories.Restaurants"/>
         <activity android:name=".app.categories.Hotels"/>
+        <activity android:name=".app.categories.Shopping"/>
     </application>
 
 </manifest>

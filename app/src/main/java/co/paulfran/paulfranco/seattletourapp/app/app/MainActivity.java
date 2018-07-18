@@ -11,6 +11,7 @@ import co.paulfran.paulfranco.seattletourapp.R;
 import co.paulfran.paulfranco.seattletourapp.app.categories.Attractions;
 import co.paulfran.paulfranco.seattletourapp.app.categories.Hotels;
 import co.paulfran.paulfranco.seattletourapp.app.categories.Restaurants;
+import co.paulfran.paulfranco.seattletourapp.app.categories.Shopping;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnHotels:
                 i = new Intent(MainActivity.this, Hotels.class);
+                break;
+            case R.id.btnShopping:
+                i = new Intent(MainActivity.this, Shopping.class);
                 break;
         }
         startActivity(i);
