@@ -13,6 +13,7 @@ import java.util.List;
 
 import co.paulfran.paulfranco.seattletourapp.R;
 import co.paulfran.paulfranco.seattletourapp.app.adapters.ScrollTabsAdapter;
+import co.paulfran.paulfranco.seattletourapp.app.fragments.GasWorksPark;
 import co.paulfran.paulfranco.seattletourapp.app.fragments.PikesPlace;
 import co.paulfran.paulfranco.seattletourapp.app.fragments.PioneerSquare;
 import co.paulfran.paulfranco.seattletourapp.app.fragments.SpaceNeedle;
@@ -71,6 +72,7 @@ public class Attractions extends AppCompatActivity {
         addData(new SpaceNeedle(), "Space Needle");
         addData(new PikesPlace(), "Pikes Place");
         addData(new PioneerSquare(), "Pioneer Square");
+        addData(new GasWorksPark(), "Gas Works Park");
 
 
         // This is the same as above but with no use of addData()

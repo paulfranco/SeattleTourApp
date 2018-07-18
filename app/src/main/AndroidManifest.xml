@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".app.categories.Attractions"/>
+        <activity android:name=".app.categories.Restaurants"/>
+        <activity android:name=".app.categories.Hotels"/>
     </application>
 
 </manifest>

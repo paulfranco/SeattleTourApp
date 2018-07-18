@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import co.paulfran.paulfranco.seattletourapp.R;
 import co.paulfran.paulfranco.seattletourapp.app.categories.Attractions;
+import co.paulfran.paulfranco.seattletourapp.app.categories.Hotels;
+import co.paulfran.paulfranco.seattletourapp.app.categories.Restaurants;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -43,6 +45,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btnAttractions:
                 i = new Intent(MainActivity.this, Attractions.class);
+                break;
+            case R.id.btnRestaurants:
+                i = new Intent(MainActivity.this, Restaurants.class);
+                break;
+            case R.id.btnHotels:
+                i = new Intent(MainActivity.this, Hotels.class);
                 break;
         }
         startActivity(i);
